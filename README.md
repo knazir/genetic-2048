@@ -6,3 +6,8 @@ Currently the graph outputs both the score and the largest tile before losing as
 I wonder if this problem can actually be solved by this algorithm. I shall continue thinking...
 ___
 This small project is possible thanks to [bulenkov's 2048 Java implementation](https://github.com/bulenkov/2048) which I modified to use in each individual's simulation. A big thank you!
+___
+Here is a sample run of trying to find a solution that gets the 512 tile with a population size of 100:
+![alt tag](http://i.imgur.com/QrFKFni.png)
+
+It's completely random how well the individual does. I'm not sure if there's a way using just this algoritihm to combine move sets into a better one...
