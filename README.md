@@ -1,7 +1,7 @@
 # genetic-2048
 Okay so I tried applying [my simple genetic algorithm](https://github.com/knazir/simple-ga) to the game of 2048.
 
-Currently the graph outputs both the score and the largest tile before losing as individual series. I can't seem to get it to learn how to get better at 2048 though... Currently, each individual is basically an array of the Move enumerated type (either UP, DOWN, LEFT, or RIGHT). Crossing over works the same and moves are swapped. However, I'm realizing now that this does not guarnatee better performance at all.. Each individual simulates a game of 2048 by instantiating the game class and treating its Move array as keystrokes.
+Currently the graph outputs both the score and the largest tile before losing as individual series. I can't seem to get it to learn how to get better at 2048 though... Currently, each individual is basically an array of the Move enumerated type (either UP, DOWN, LEFT, or RIGHT). Crossing over works the same and moves are swapped. However, I'm realizing now that this does not guarnatee better performance at all.. Each individual simulates a game of 2048 by instantiating the game class and treating its Move array as keystrokes. Also, all game instances use a seed to ensure that the same game is being played given the same set of moves.
 
 I wonder if this problem can actually be solved by this algorithm. I shall continue thinking...
 ___
